@@ -1,33 +1,48 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-us">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Devon DeVaughn</title>
+  <meta charset="UTF-8">
+  <title>CSS Stylesheets with Relative Paths</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+  <header>
     <h1>Student Bio</h1>
+  </header>
 
-    <h2>Darrian DeVaughn</h2>
-    <img src="https://lh3.googleusercontent.com/proxy/06vuUEEOQj0XuBrzucqn1PbviQ-lMFlpm82zG1abKAKpozAfwbNcEOuVMtTs9wixbxrR4BjUDX8zrvsHHu5ZvRtDK6X7BSIM5-Qnn84QyjhvAhTqzHfTZ3BjuDNSOw"
-        alt="Place holder image" width="200" ; height="200">
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta sed adipisci quisquam odio laborum veritatis
+  <div class="container">
+
+    <section id="main-bio">
+
+      <h2>Darrian DeVaughn</h2>
+
+      <img
+        src="https://lh3.googleusercontent.com/proxy/06vuUEEOQj0XuBrzucqn1PbviQ-lMFlpm82zG1abKAKpozAfwbNcEOuVMtTs9wixbxrR4BjUDX8zrvsHHu5ZvRtDK6X7BSIM5-Qnn84QyjhvAhTqzHfTZ3BjuDNSOw"
+        alt="Place holder image" width="200" ; height="200" id="bio-image">
+
+      <p class="lorem">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta sed adipisci quisquam odio
+        laborum
+        veritatis
         voluptatem inventore, unde asperiores error enim, suscipit ullam omnis ad commodi at vel cumque obcaecati! Lorem
         ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus dolores dolorem eligendi voluptate tempora rerum
         et impedit, unde aut commodi natus aspernatur veritatis, quod ea accusamus nostrum molestiae maxime molestias?
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur, amet. Quis illo accusamus voluptatum
         error iste ex repudiandae optio repellat facere dolorum assumenda saepe animi quo, labore eum. Natus, quibusdam!
-    </p>
+      </p>
 
-    <h2>Contact Info</h2>
-    <ul>
-        <li><strong>Email:</strong><a href="mailto: devondevaughnn@gmail.com" target="_blank">
-                devondevaughnn@gmail.com</a></li>
-        <li><strong>GitHub:</strong><a href="https://github.com/DevonDeVaughnn"> DevonDeVaughn</a></li>
-        <li><strong>Portfolio:</strong><a href="#"> Coming Soon</a></li>
-    </ul>
+    </section>
+
+    <section id="contact-info">
+      <h2>Contact Info</h2>
+      <ul>
+        <li><strong>Email:</strong><a href="mailto: devondevaughnn@gmail.com" target="_blank">devondevaughnn@gmail.com</a></li>
+        <li><strong>GitHub: </strong><a href="https://github.com/DevonDeVaughnn">DevonDeVaughn</a></li>
+        <li><strong>Portfolio: </strong><a href="#"> Coming Soon</a></li>
+      </ul>
+    </section>
+  </div>
 
 </body>
 
